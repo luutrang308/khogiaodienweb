@@ -1001,6 +1001,10 @@
   padding: 30px 0;
 }
 
+.section_breadcrumb .container {
+  padding: 0;
+}
+
 .element_breadcrumb {
   padding: 0;
   display: flex;

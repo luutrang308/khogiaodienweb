@@ -40,6 +40,7 @@
   .top-up {
     right: 23px;
   }
+
 }
 
 /* 1280 */
@@ -49,11 +50,106 @@
   }
 }
 
+/* 1366 */
+@media screen and (max-width: 1400px) and (min-width: 1301px) {
+  .section_banner .slider_banner .item .content {
+    left: 100px;
+    width: 60%;
+  }
+  .icon_allpage {
+    right: 10px;
+  }
+  .section_banner_1 .content {
+    left: 100px;
+  }
+}
 
+/* 1280 */
+@media screen and (max-width: 1300px) and (min-width: 1101px) {
+  .section_banner .slider_banner .item .content {
+    left: 55px;
+    width: 60%;
+  }
+}
 
+/* 1024 */
+@media screen and (max-width: 1100px) and (min-width: 992px) {
+  .section_banner .slider_banner .item .content {
+    left: 30px;
+    width: 60%;
+  }
+  .element_uudai .element_btn_info .btn_phone_info , .element_uudai .element_btn_info .btn_datmua {
+    font-size: 13px;
+    padding: 0 15px;
+  }
+  .section_banner_1 .content {
+    left: 30px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_header h3 {
+    font-size: 24px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_content p {
+    font-size: 14px;
+  }
+  .section_cate_pro .element_cate_item .cate_item .img {
+    height: 145px;
+  }
+  .title_left h2 {
+    font-size: 26px;
+  }
+  .section_map .element_map .item {
+    width: 40%;
+  }
+  .section_map .element_map .item_map {
+    width: 60%;
+  }
+}
 
+/* 768 */
+@media screen and (max-width: 992px)  and (min-width: 570px) {
+  .element_news .item_news .img {
+    height: 140px;
+  }
+  .element_uudai .tucho_radio ul li label {
+    width: calc(100% - 40px);
+  }
+  .section_banner_1 .content {
+    left: 15px;
+  }
+  .section_banner_1 .content h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .section_bangbaogia .row > h3 {
+    padding: 10px 25px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_header h3 {
+    font-size: 18px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_header h3 span {
+    font-size: 14px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_content p {
+    font-size: 14px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_content {
+    padding: 0 15px;
+  }
+  .section_banner_text h2 {
+    font-size: 24px;
+  }
+  .section_cate_pro .element_cate_item .cate_item .img {
+    height: 112px;
+  }
+  .section_cate_pro .element_cate_item .cate_item p {
+    font-size: 14px;
+  }
+  .section_list_theme.pb-0.mt-60 {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
 
-
+}
 
 
 /* 992 */
@@ -181,6 +277,7 @@
   }
   .section_footer .footer_item:nth-child(2) h3 , .section_footer .footer_item:nth-child(3) h3 ,  .section_footer .footer_item:nth-child(4) h3 {
     position: relative;
+    font-size: 14px;
   }
   .section_footer .footer_item:nth-child(2) h3:before , .section_footer .footer_item:nth-child(3) h3:before ,  .section_footer .footer_item:nth-child(4) h3:before {
     position: absolute;
@@ -237,5 +334,249 @@
   }
   .section_2_theme {
     padding: 20px 0;
+  }
+  .title_basic h2 span {
+    font-size: 16px;
+    display: block;
+    padding: 0 17px;
+  }
+  .title_basic h2 span:before {
+    width: 42px;
+    height: 3px;
+  }
+  .title_basic p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .theme_content .img {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .theme_content .content {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .theme_content .content p span {
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 0.330947px dashed #51A94E;
+    display: block;
+    width: 100%;
+  }
+  .btn_dangkingay {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .btn_dangkingay img {
+    width: 25px;
+  }
+  .section_list_theme {
+    padding-bottom: 135px;
+  }
+  .section_service .element_service h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .section_service .element_service p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .section_service .element_service {
+    padding: 20px 25px;
+  }
+  .section_service .element_service .element_btn .btn_xembanggia , .section_service .element_service .element_btn .btn_khogiaodien {
+    width: 135px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 5px;
+  }
+  .section_service {
+    margin-bottom: 0;
+  }
+  .element_news .item_news .content_news .detail_news a {
+    font-size: 14px;
+  }
+  .element_news .item_news .content_news .detail_news span {
+    font-size: 12px;
+  }
+  .element_news .item_news .content_news .detail_news .btn_xemchitiet {
+    font-size: 12px;
+  }
+  .section_footer .footer_item.copyrighter {
+    margin-top: 0;
+  }
+  .element_list_theme .content_theme a {
+    font-size: 14px;
+  }
+  .element_list_theme .content_theme .price .btn_dungthu {
+    font-size: 14px;
+  }
+  .element_info_product .img , .element_info_product .info_pro {
+    width: 100%;
+    padding: 0;
+  }
+  .element_about_us , .element_about_camket {
+    width: 100%;
+  }
+  .section_map .element_map .item , .section_map .element_map .item_map , .section_contact_form .element_contact .item_contact , .section_contact_form .element_contact .item_img{
+    width: 100%;
+    padding: 0;
+  }
+  .section_map .element_map .item, .section_contact_form .element_contact .item_contact {
+    margin-bottom: 20px;
+  }
+}
+
+/* 570 */
+@media screen and (max-width: 570px) {
+  .section_breadcrumb .container {
+    padding: 0 15px;
+  }
+  .element_info_product {
+    padding: 0 15px;
+  }
+  .element_uudai .element_btn_info {
+    justify-content: center;
+  }
+  .element_uudai .element_btn_info .btn_datmua {
+    margin: 10px 0;
+  }
+  .element-list .profile-product .tabs-list-detail ul li a {
+    font-size: 14px;
+  }
+  .element-list {
+    padding: 0 15px;
+  }
+  .element-list .profile-product .tabs-list-detail ul li {
+    margin-right: 10px;
+  }
+  .element_list_theme .col-xs-12 {
+    padding: 0;
+  }
+  .element_uudai .tucho_radio ul li {
+    display: flex;
+    align-items: baseline;
+  }
+  .review-right {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+  .section_banner_1 .content {
+    left: 15px;
+  }
+  .section_banner_1 .content h2 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .section_bangbaogia .row > h3 {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .section_bangbaogia .element_baogia {
+    padding: 0 15px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_header h3 {
+    margin: 0;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_header h2 {
+    padding-top: 40px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_content {
+    padding: 0 15px;
+  }
+  .section_bangbaogia .element_baogia .item_baogia .item_content p {
+    font-size: 16px;
+  }
+  .section_about_us , .section_about_camket {
+    padding: 0 15px;
+  }
+  .title_left h2 {
+    font-size: 16px;
+  }
+  .title_left h2:before {
+    width: 35px;
+    height: 3px;
+  }
+  .element_about_us p {
+    font-size: 14px;
+  }
+  .item_camket .img {
+    width: 60px;
+    height: 60px;
+  }
+  .item_camket .img img {
+    max-width: 60%;
+  }
+  .item_camket .content {
+    width: calc(100% - 80px);
+  }
+  .item_camket .content h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .item_camket .content p {
+    font-size: 14px;
+  }
+  .section_dangkituvan .row .element_dangki , .section_dangkituvan .row .img {
+    width: 100%;
+  }
+  .section_cate_pro .element_cate_item .cate_item {
+    width: 25%;
+    margin: 5px 0;
+  }
+  .section_cate_pro .element_cate_item .cate_item .img {
+    height: 93px;
+    padding: 5px;
+  }
+  .section_banner_text h2 {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+  }
+  .section_cate_pro .element_cate_item {
+    padding: 0 15px;
+  }
+  .section_cate_pro .element_cate_item .cate_item p {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+  .section_list_theme.pb-0.mt-60 {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .section_list_theme.pb-0.mt-60 .element_list_theme {
+    padding: 0 15px;
+  }
+  .section_phantrang button {
+    font-size: 12px;
+    height: 40px;
+    padding: 0 5px;
+  }
+  .section_phantrang span {
+    padding-left: 16px;
+    width: 40px;
+    height: 40px;
+  }
+  .section_phantrang p {
+    font-size: 12px;
+  }
+  .section_map .element_map .item h3 {
+    font-size: 16px;
+  }
+  .section_map .element_map .item p , .section_map .element_map .item .lienket p , .section_contact_form .element_contact .item_contact p{
+    font-size: 14px;
+  }
+  .contact_form input::placeholder , .contact_form textarea::placeholder {
+    font-size: 14px;
+  }
+  .element_list_theme {
+    padding: 0 15px;
   }
 }
