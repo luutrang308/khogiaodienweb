@@ -336,7 +336,7 @@
 			    transform: translate(0, -50%);
 			    width: 27%;
 			    h2 {
-			    	font-family: Helvetica Neue;
+			    	font-family: HelveticaNeueBold;
 				    font-style: normal;
 				    font-weight: bold;
 				    font-size: 30px;
@@ -367,7 +367,7 @@
 				    border: 1.2px solid #FFFFFF;
 				    box-sizing: border-box;
 				    border-radius: 45px;
-				    font-family: Helvetica Neue;
+				    font-family: HelveticaNeueBold;
 				    font-style: normal;
 				    font-weight: bold;
 				    font-size: 18px;
@@ -395,7 +395,7 @@
     border: 1.2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 45px;
-    font-family: Helvetica Neue;
+    font-family: HelveticaNeueBold;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -418,7 +418,7 @@
 	h2 {
 		text-align: center;
 		span {
-			font-family: Helvetica Neue;
+			font-family: HelveticaNeueBold;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 30px;
@@ -572,7 +572,7 @@
 			transition: 0.5s;
 		}
 		span {
-			font-family: Helvetica Neue;
+			font-family: HelveticaNeueBold;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 14px;
@@ -643,7 +643,7 @@
         padding: 20px 50px 40px 50px;
 	    text-align: center;
 		h2 {
-			font-family: Helvetica Neue;
+			font-family: HelveticaNeueBold;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 30px;
@@ -668,7 +668,7 @@
 				border-radius: 45px;
 				width: 183px;
 				height: 45px;
-				font-family: Helvetica Neue;
+				font-family: HelveticaNeueBold;
 				font-style: normal;
 				font-weight: bold;
 				font-size: 18px;
@@ -679,7 +679,7 @@
 				margin: 0 15px;
 			}
 			.btn_khogiaodien {
-				font-family: Helvetica Neue;
+				font-family: HelveticaNeueBold;
 				font-style: normal;
 				font-weight: bold;
 				font-size: 18px;
@@ -758,7 +758,7 @@
 			}
 			.detail_news {
 				a {
-				    font-family: Helvetica Neue;
+				    font-family: HelveticaNeueBold;
 				    font-style: normal;
 				    font-weight: bold;
 				    font-size: 18px;
@@ -992,7 +992,7 @@
 			}
 		}
 		h3 {
-			font-family: Helvetica Neue;
+			font-family: HelveticaNeueBold;
 			font-style: normal;
 			font-weight: 900;
 			font-size: 16px;
@@ -1162,7 +1162,7 @@
 					    text-decoration: line-through;
 					}
 					p {
-						font-family: Helvetica Neue;
+						font-family: HelveticaNeueBold;
 						font-style: normal;
 						font-weight: bold;
 						font-size: 24px;
@@ -1199,7 +1199,7 @@
 	    border-radius: 5px;
 	    padding: 15px 15px 10px 15px;
 	    h3 {
-    	    font-family: Helvetica Neue;
+    	    font-family: HelveticaNeueBold;
 		    font-style: normal;
 		    font-weight: bold;
 		    font-size: 18px;
@@ -1218,7 +1218,7 @@
 	    	margin: 8px 0;
 	    	span {
 	    		&:first-child {
-	    			font-family: Helvetica Neue;
+	    			font-family: HelveticaNeueBold;
 					font-style: normal;
 					font-weight: bold;
 					font-size: 16px;
@@ -1273,7 +1273,7 @@
 
 	.tucho_radio {
 		p {
-		    font-family: Helvetica Neue;
+		    font-family: HelveticaNeueBold;
 		    font-style: normal;
 		    font-weight: bold;
 		    font-size: 16px;
@@ -1309,7 +1309,7 @@
 	    align-items: center;
 	    justify-content: space-between;
 	    p {
-	     	font-family: Helvetica Neue;
+	     	font-family: HelveticaNeueBold;
 		    font-style: normal;
 		    font-weight: bold;
 		    font-size: 16px;
@@ -1317,7 +1317,7 @@
 		    color: #5A5A5A;
 		    margin: 0;
 		    &:last-child {
-		    	font-family: Helvetica Neue;
+		    	font-family: HelveticaNeueBold;
 				font-style: normal;
 				font-weight: bold;
 				font-size: 24px;
@@ -1359,7 +1359,7 @@
 			}
 		}
 		.btn_phone_info {
-		    font-family: Helvetica Neue;
+		    font-family: HelveticaNeueBold;
 		    font-style: normal;
 		    font-weight: bold;
 		    font-size: 16px;
@@ -1374,7 +1374,7 @@
 		    text-decoration: none;
 		}
 		.btn_datmua {
-			font-family: Helvetica Neue;
+			font-family: HelveticaNeueBold;
 		    font-style: normal;
 		    font-weight: bold;
 		    font-size: 16px;
@@ -1560,10 +1560,11 @@
 				}
 				li.active {
 					a {
-						border: none;
+						font-family: HelveticaNeueBold;
 						font-weight: bold;
-						border-bottom: 4px solid #085537;
+						border-bottom: 4px solid #085537 !important;
 						background: transparent;
+						border: none;
 					}
 				}
 			}
@@ -1602,7 +1603,7 @@
 	padding-top: 30px;
 	border-top: 1px solid #F1F1F1;
 	h3 {
-		font-family: Helvetica Neue;
+		font-family: HelveticaNeueBold;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 24px;
@@ -1629,7 +1630,7 @@
 		left: 365px;
 		transform: translate(0, -50%);
 		h2 {
-			font-family: Helvetica Neue;
+			font-family: HelveticaNeueBold;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 30px;
@@ -1664,7 +1665,7 @@
 			.item_header {
 				padding: 15px;
 				h2 {
-					font-family: Helvetica Neue;
+					font-family: HelveticaNeueBold;
 					font-style: normal;
 					font-weight: bold;
 					font-size: 24px;
@@ -1679,7 +1680,7 @@
 					}
 				}
 				h3 {
-					font-family: Helvetica Neue;
+					font-family: HelveticaNeueBold;
 					font-style: normal;
 					font-weight: bold;
 					font-size: 32px;
@@ -1784,7 +1785,7 @@
     border: 1.2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 45px;
-    font-family: Helvetica Neue;
+    font-family: HelveticaNeueBold;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -1831,7 +1832,7 @@
 .title_left {
 	margin-bottom: 30px;
 	h2 {
-	    font-family: Helvetica Neue;
+	    font-family: HelveticaNeueBold;
 	    font-style: normal;
 	    font-weight: bold;
 	    font-size: 30px;
@@ -1889,7 +1890,7 @@
 	.content {
 		width: calc(100% - 125px);
 		h2 {
-			font-family: Helvetica Neue;
+			font-family: HelveticaNeueBold;
 			font-style: normal;
 			font-weight: bold;
 			font-size: 21px;
@@ -1964,7 +1965,7 @@
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		font-family: Helvetica Neue;
+		font-family: HelveticaNeueBold;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 30px;
@@ -2059,7 +2060,7 @@
 	    padding-left: 22px;
 		width: 55px;
 		height: 55px;
-		font-family: Helvetica Neue;
+		font-family: HelveticaNeueBold;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;
@@ -2123,7 +2124,7 @@
 			width: 30%;
 			overflow: hidden;
 			h3 {
-				font-family: Helvetica Neue;
+				font-family: HelveticaNeueBold;
 				font-style: normal;
 				font-weight: bold;
 				font-size: 24px;
@@ -2152,7 +2153,7 @@
 				display: flex;
 				align-items: center;
 				p {
-					font-family: Helvetica Neue;
+					font-family: HelveticaNeueBold;
 					font-style: normal;
 					font-weight: bold;
 					font-size: 18px;

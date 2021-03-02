@@ -7,8 +7,8 @@
   src: url(./../fonts/Lato-Regular.ttf);
 }
 @font-face {
-  font-family: UTMAvoBold;
-  src: url(./../fonts/UTMAvoBold.ttf);
+  font-family: HelveticaNeueBold;
+  src: url(./../fonts/HelveticaNeue-Bold.otf);
 }
 @font-face {
   font-family: Montserrat-SemiBold;
