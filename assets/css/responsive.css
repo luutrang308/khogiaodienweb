@@ -62,6 +62,9 @@
   .section_banner_1 .content {
     left: 100px;
   }
+  .theme_content .content {
+    width: 83%;
+  }
 }
 
 /* 1280 */
@@ -102,6 +105,9 @@
   }
   .section_map .element_map .item_map {
     width: 60%;
+  }
+  .theme_content .content {
+    width: 90%;
   }
 }
 
@@ -160,6 +166,9 @@
 
 /* 992 */
 @media screen and (max-width: 992px) {
+  .theme_content .container {
+    width: 100%;
+  }
   .main_header .row .main_menu > li.hightline:before {
     opacity: 1;
   } 

@@ -331,7 +331,7 @@
 			position: relative;
 			.content {
 				position: absolute;
-			    top: 50%;
+			    top: 45%;
 			    left: 366px;
 			    transform: translate(0, -50%);
 			    width: 27%;
@@ -347,6 +347,7 @@
 			    }
 			    p {
 			    	margin: 0;
+			    	margin-bottom: 15px;
 			    	display: flex;
 			    	align-items: center;
 			    	img {
@@ -451,9 +452,10 @@
 .theme_content {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	margin-top: 50px;
+	overflow: hidden;
 	.img {
 		width: 50%;
 		overflow: hidden;
@@ -461,8 +463,11 @@
 			width: 100%;
 		}
 	}
+	.container {
+		width: 45%;
+	}
 	.content {
-		width: 50%;
+		width: 60%;
 		/*overflow: hidden;*/
 		p {
 		    margin: 14px 0 15px 0;
@@ -503,7 +508,7 @@
     margin-top: 52px;
 	.item_theme {
 		background: #FFFFFF;
-		box-shadow: 3px 4px 14px rgba(73, 73, 73, 0.09);
+		box-shadow: 3px 4px 10px rgb(81 169 78 / 10%);
 		border-radius: 5px;
 		margin-bottom: 30px;
 		position: relative;
@@ -572,9 +577,9 @@
 			transition: 0.5s;
 		}
 		span {
-			font-family: HelveticaNeueBold;
+			font-family: Helvetica Neue;
 			font-style: normal;
-			font-weight: bold;
+			font-weight: normal;
 			font-size: 14px;
 			line-height: 150.36%;
 			color: #BBBBBB;
@@ -2081,6 +2086,7 @@
 	    height: 55px;
 	    padding: 0 25px;
 	    transition: 0.5s;
+	    background: transparent;
 	    &:hover {
 	    	background: #51a94e;
 	    	color: #fff;
