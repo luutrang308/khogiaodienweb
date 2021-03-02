@@ -47,7 +47,20 @@ $(document).ready(function() {
     infinite: true,
     initialSlide: 1,
     arrows: false,
-    buttons: false
+    buttons: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          speed: 300,
+          autoplaySpeed: 3000,
+          autoplay: true,
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 1
+        }
+      },
+    ]
   });
 
   $('.icon_backtotop').click(function() {

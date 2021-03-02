@@ -166,6 +166,9 @@
 
 /* 992 */
 @media screen and (max-width: 992px) {
+  .section_banner .slider_banner .item .content p {
+    margin-bottom: 5px;
+  }
   .theme_content .container {
     width: 100%;
   }
@@ -327,7 +330,8 @@
   }
   .section_banner .slider_banner .item .content {
     left: 15px;
-    width: 70%;
+    width: 90%;
+    top: 50%;
   }
   .section_banner .slider_banner .item .content h2 {
     font-size: 16px;
@@ -412,6 +416,7 @@
   }
   .section_service {
     margin-bottom: 0;
+    padding: 0 15px;
   }
   .element_news .item_news .content_news .detail_news a {
     font-size: 14px;
